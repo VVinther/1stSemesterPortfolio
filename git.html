@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GIT</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <ul class="nav nav-tabs nav-justified">
+        <!--Navbar start-->
+        <li role="presentation"><a href="index.html">Forside</a></li>
+        <li role="presentation" class="dropdown active">
+            <!--Interaktionsudvikling nav start-->
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Interaktionsudvikling <span class="caret"></span>
+    </a>
+            <ul class="dropdown-menu">
+                <!--Interaktionsudvikling dropdown-->
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="git.html">GIT</a></li>
+                <li><a href="responsive.html">Responsive Design</a></li>
+                <li><a href="frameworks.html">Frameworks - Bootstrap</a></li>
+                <li><a href="interaktion_refleksion.html">Refleksion</a></li>
+            </ul>
+        </li>
+        <!--Interaktionsudvikling nav slut-->
+        <li role="presentation" class="dropdown">
+            <!--Kommunikation nav start-->
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Kommunikation <span class="caret"></span>
+    </a>
+            <ul class="dropdown-menu">
+                <!--Kommunikation dropdown-->
+                <li><a href="strategi.html">Design- og Kommunikationsstrategi</a></li>
+                <li><a href="produktion.html">Produktionsmodeller</a></li>
+                <li><a href="ide.html">Idégenerering</a></li>
+                <li><a href="tekst.html">Tekst som medie</a></li>
+                <li><a href="visualisering.html">Visualiseringsværktøjer</a></li>
+                <li><a href="story.html">Storytelling</a></li>
+                <li><a href="kommunikation_refleksion.html">Refleksion</a></li>
+            </ul>
+        </li>
+        <!--Kommunikation nav slut-->
+        <li role="presentation" class="dropdown">
+            <!--Virksomhed nav start-->
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Virksomhed <span class="caret"></span>
+    </a>
+            <ul class="dropdown-menu">
+                <!--Virksomhed dropdown-->
+                <li><a href="copyright.html">Ophavsret</a></li>
+                <li><a href="udvikling.html">Udviklingsmetoder</a></li>
+                <li><a href="licens.html">Licenseringsmetoder</a></li>
+                <li><a href="virksomhed_refleksion.html">Refleksion</a></li>
+            </ul>
+        </li>
+        <!--Virksomhed nav slut-->
+        <li role="presentation" class="dropdown">
+            <!--Visualisering nav start-->
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Visualisering <span class="caret"></span>
+    </a>
+            <ul class="dropdown-menu">
+                <!--Visualisering dropdown-->
+                <li><a href="fgt.html">Farvelære, Gestaltlove og Typografi</a></li>
+                <li><a href="foto.html">Foto</a></li>
+                <li><a href="adobe.html">Adobe</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="visualisering_refleksion.html">Refleksion</a></li>
+            </ul>
+        </li>
+        <!--Visualisering nav slut-->
+        <li role="presentation" class="dropdown">
+            <!--Projekter nav start-->
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Projekter <span class="caret"></span>
+    </a>
+            <ul class="dropdown-menu">
+                <!--Projekter dropdown-->
+                <li><a href="prototyping.html">Prototyping</a></li>
+                <li><a href="onepage.html">Onepage</a></li>
+                <li><a href="projekt_refleksion.html">Refleksion</a></li>
+            </ul>
+        </li>
+        <!--Projekter nav slut-->
+    </ul>
+    <!--Navbar slut-->
+
+    <div class="indholdWrapper">
+        <!--Sideindhold start-->
+        <div class="tekst">
+            <h2>GIT</h2>
+            Versionsstyring er en måde at holde styr på forskellige versioner af filer, det kan man gøre manuelt ved f.eks. at gemme filen som ”X-(dato-tidspunkt)” og arkivere dem. Dog er der blevet lavet softwareløsninger til versionsstyring, en af dem er Git, som semi-automatisk gemmer de forskellige versioner af filer.<br><br> GitHub er en webtjeneste man kan bruge til at lave versionsstyring ved at lave commits til filerne man arbejder med inde i et Git-repository. Man kan arbejde med forskellige branches, hvilket gør at man kan have flere forskellige folk til at arbejde på filerne på samme tid, typisk uden at de kommer til at forstyrre hinandens arbejde.<br><br> Når man arbejder i forskellige branches, skal man lave pull requests for at kunne opdatere andre branches med det man har lavet i ens branch. Når man laver en pull request sammenligner Git de to versioner og ser om der er nogen konflikter imellem dem, hvis ikke bliver den branch man sammenligner med opdateret.
+            <img src="img/git1.png" class="billede"><br> På GitHub kan man også se de forskellige ændringer fra version til version, for nemmere at kunne holde styr på hvad der sker fra version til version.
+            <img src="img/git2.png" class="billede"><br> Git og GitHub er dog ikke den samme ting, Git er protokollen der sørger for versionsstyringen, og GitHub er en webtjeneste der anvender Git til sin versionsstyring.<br><br>
+            <img src="img/git.png" class="billede_small gitBot">
+            <img src="img/github.png" class="billede_small gitBot">
+        </div>
+    </div>
+    <!--Sideindhold slut-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

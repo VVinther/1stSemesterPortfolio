@@ -1,0 +1,44 @@
+.nav {
+    max-width: 1000px;
+    margin: auto;
+}/*Sørger for at min navbar holder en maks bredde på 1000 pixels, imens den forbliver centreret på siden*/
+
+.indholdWrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}/*Sørger for at mit indhold holder sig på midten af siden, imens padding giver indholdet mere luft, så det ikke går ud til kanterne hvis bredden er mindre end maks*/
+
+.tekst {
+    
+}/*Har kun lavet den her in-case der skal gøres noget specielt ved teksten*/
+
+.billede {
+    margin: auto;
+    max-width: 800px;
+    padding-bottom: 1.5em;
+}/*Sørger for at mine billeder har en maks bredde på 800 pixels og at der bliver lavet noget luft under det på 1.5em*/
+
+.billede_small {
+    max-width: 80px
+}/*Lavet udelukkende til logoer, burde nok egentlig have kaldt den .logo for at gøre det nemmere at forstå.*/
+
+.floatleft {
+    float: left;
+    padding-right: 0.5em;
+}/*Lavet sammen med .billede_small til logoer*/
+
+.kode {
+    display: block;
+    background: grey;
+    border-style: dotted;
+    color: white;
+}
+
+.gitBot {
+    margin-left: 27%;
+    padding-bottom: 3em;
+}/*Lavet til bunden af GIT siden hvor Git og GitHub logoerne er placeret for at give lidt frirum*/
